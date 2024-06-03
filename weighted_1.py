@@ -1,7 +1,3 @@
-# WEKELIJKSE BEURS CHECK:
-# 1. portfolio check (1ste halfuur)
-# 2. stock market analyse (2de halfuur)
-
 import csv
 import os
 
