@@ -79,7 +79,7 @@ STOCK_VALUES = {
         'analyst_recommendations': 6,
         'insider_transactions': 2,
         'institutional_transactions': 4
-    } # manueel invoeren voor elke stock ; ZIER USER-STEPS ; kopieer dus die GPT-prompt en voeg voor elke stock een foto toe met de respectievelijk finviz informatie.
+    } # manueel invoeren voor elke stock ; ZIE USER-STEPS ; kopieer dus die GPT-prompt en voeg voor elke stock een foto toe met de respectievelijk finviz informatie.
 
 COPYTHIS_PROMPT = ("Your task is to generate one python dictionary with following structure: {'pe_ratio' : X, 'price_free_cash_flow' : X, 'eps_growth_this_year' : X, 'eps_growth_next_year' : X, 'debt_equity_ratio' : X, 'operating_margin' : X, 'net_profit_margin' : X, 'analyst_recommendations' : X, 'insider_transactions' : X, 'institutional_transactions' : X}."
                    "I will upload an image with raw stock information. Extract the information that is needed to complete the dictionary.") # voeg hier de foto (screenshot) aan toe
