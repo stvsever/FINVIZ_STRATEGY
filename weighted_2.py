@@ -107,7 +107,8 @@ def extract_ticker_and_scores(filename="recommendation_scores.csv"):
 
 #---------- IMPLEMENTATION ----------#
 
-file_name = os.path.join('/Users/stijnvanseveren/PycharmProjects/Stock_Prediction/.venv','recommendation_scores.csv')
+directory = os.getcwd()
+file_name = os.path.join(directory,'recommendation_scores.csv')
 
 tickers = extract_ticker_and_scores(file_name).keys()
 rec_scores = extract_ticker_and_scores(file_name).values()
